@@ -18,8 +18,23 @@ This repository contains Zabbix Templates and Grafana dashboards for an awesome 
 
 
 ### Windows - Fabric - Hyper-V (all Nodes) - Patchlevel
-*This dashboard is for quickly see all patchelevels from the Hyper-V nodes.*
+*This dashboard is for quickly see all patchlevels from the Hyper-V nodes.*
 ![Windows - Fabric - Hyper-V - Patchlevel](Windows_-_Fabric_-_Hyper-V_-_Patchlevel.png)
+
+
+## Installation
+* Install the Zabbix agent on a Hyper-V node
+* Place both PowerShell scripts (*Get-CSVsForDiscovery.ps1* & *Get-HBAPathNumbersForDiscovery.ps1*) in the root installation directory of the Zabbix agent
+* Add following to the end of your Zabbix Agent configuration *zabbix_agentd.conf* or take my configuration and replace some parts:
+```
+### UserParameters - RHE:
+UserParameter=custom.discovery.csvnames,powershell -File "C:\Program Files\Zabbix Agent\Get-CSVsForDiscovery.ps1"
+UserParameter=custom.discovery.hbapaths,powershell -File "C:\Program Files\Zabbix Agent\Get-HBAPathNumbersForDiscovery.ps1"
+###
+```
+* Restart your Zabbix agent
+* Import the Grafana dashboards to your Grafana instance
+* You are finished and everything should work
 
 
 
