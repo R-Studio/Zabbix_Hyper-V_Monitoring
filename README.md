@@ -2,6 +2,7 @@
 This repository contains Zabbix Templates and Grafana dashboards for an awesome Hyper-V monitoring.
 
 > Maybe for your environment you have to change some Zabbix items in the templates and the serialnumber filter in 'Get-HBAPathNumbersForDiscovery.ps1'.
+> This repository is working but will be not supported in the future. Because we switch to the TIG-Stack (Telegraf, InfluxDB, Grafana)
 
 
 ## Grafana Dashboards
@@ -36,9 +37,6 @@ UserParameter=custom.discovery.hbapaths,powershell -File "C:\Program Files\Zabbi
 * Import the Grafana dashboards to your Grafana instance
 * You are finished and everything should work
 
-
-
-> This repository will be not supported in the future. Because we switch to the TIG-Stack (Telegraf, InfluxDB, Grafana)
 
 
 ## License
