@@ -160,7 +160,7 @@
             }
           ],
           "group": {
-            "filter": "IX-CLOUD-HG-FA-Node-Compute"
+            "filter": "HG-FA-Node-Compute"
           },
           "groupBy": [
             {

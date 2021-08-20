@@ -118,7 +118,7 @@
           },
           "functions": [],
           "group": {
-            "filter": "IX-CLOUD-HG-FA-Node-Compute"
+            "filter": "HG-FA-Node-Compute"
           },
           "host": {
             "filter": ""
@@ -257,7 +257,7 @@
           },
           "functions": [],
           "group": {
-            "filter": "IX-CLOUD-HG-FA-Node-Compute"
+            "filter": "HG-FA-Node-Compute"
           },
           "host": {
             "filter": ""
@@ -2646,7 +2646,7 @@
         "allValue": null,
         "current": {},
         "datasource": "${DS_ZABBIX_SERVER}",
-        "definition": "IX-CLOUD-HG-FA-Node-Compute",
+        "definition": "HG-FA-Node-Compute",
         "description": null,
         "error": null,
         "hide": 2,
@@ -2655,7 +2655,7 @@
         "multi": false,
         "name": "hvgroup",
         "options": [],
-        "query": "IX-CLOUD-HG-FA-Node-Compute",
+        "query": "HG-FA-Node-Compute",
         "refresh": 1,
         "regex": "",
         "skipUrlSync": false,
