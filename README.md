@@ -1,7 +1,7 @@
 # Zabbix Hyper-V Monitoring
 This repository contains Zabbix Templates and Grafana dashboards for an awesome Hyper-V monitoring.
 
-> Maybe for your environment you have to change some Zabbix items in the templates.
+> Maybe for your environment you have to change some Zabbix items in the templates and the serialnumber filter in 'Get-HBAPathNumbersForDiscovery.ps1'.
 
 
 ## Grafana Dashboards
