@@ -69,7 +69,7 @@
   "panels": [
     {
       "collapsed": false,
-      "datasource": null,
+      "datasource": "${DS_ZABBIX_SERVER}",
       "fieldConfig": {
         "defaults": {},
         "overrides": []
@@ -88,7 +88,7 @@
     },
     {
       "cacheTimeout": null,
-      "datasource": null,
+      "datasource": "${DS_ZABBIX_SERVER}",
       "fieldConfig": {
         "defaults": {
           "color": {
@@ -175,7 +175,7 @@
     },
     {
       "cacheTimeout": null,
-      "datasource": null,
+      "datasource": "${DS_ZABBIX_SERVER}",
       "fieldConfig": {
         "defaults": {
           "color": {
@@ -287,7 +287,7 @@
     },
     {
       "cacheTimeout": null,
-      "datasource": null,
+      "datasource": "${DS_ZABBIX_SERVER}",
       "fieldConfig": {
         "defaults": {
           "color": {
@@ -379,7 +379,7 @@
     },
     {
       "cacheTimeout": null,
-      "datasource": null,
+      "datasource": "${DS_ZABBIX_SERVER}",
       "fieldConfig": {
         "defaults": {
           "color": {
@@ -486,7 +486,7 @@
     },
     {
       "cacheTimeout": null,
-      "datasource": null,
+      "datasource": "${DS_ZABBIX_SERVER}",
       "fieldConfig": {
         "defaults": {
           "color": {
@@ -593,7 +593,7 @@
     },
     {
       "cacheTimeout": null,
-      "datasource": null,
+      "datasource": "${DS_ZABBIX_SERVER}",
       "fieldConfig": {
         "defaults": {
           "color": {
@@ -681,7 +681,7 @@
     },
     {
       "cacheTimeout": null,
-      "datasource": null,
+      "datasource": "${DS_ZABBIX_SERVER}",
       "fieldConfig": {
         "defaults": {
           "color": {
@@ -896,7 +896,7 @@
     },
     {
       "cacheTimeout": null,
-      "datasource": null,
+      "datasource": "${DS_ZABBIX_SERVER}",
       "fieldConfig": {
         "defaults": {
           "color": {
@@ -989,7 +989,7 @@
     },
     {
       "cacheTimeout": null,
-      "datasource": null,
+      "datasource": "${DS_ZABBIX_SERVER}",
       "fieldConfig": {
         "defaults": {
           "color": {
@@ -1082,7 +1082,7 @@
     },
     {
       "cacheTimeout": null,
-      "datasource": null,
+      "datasource": "${DS_ZABBIX_SERVER}",
       "fieldConfig": {
         "defaults": {
           "color": {
@@ -1168,7 +1168,7 @@
     },
     {
       "cacheTimeout": null,
-      "datasource": null,
+      "datasource": "${DS_ZABBIX_SERVER}",
       "fieldConfig": {
         "defaults": {
           "color": {
@@ -1341,7 +1341,7 @@
     },
     {
       "collapsed": false,
-      "datasource": null,
+      "datasource": "${DS_ZABBIX_SERVER}",
       "fieldConfig": {
         "defaults": {},
         "overrides": []
@@ -1522,7 +1522,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": null,
+      "datasource": "${DS_ZABBIX_SERVER}",
       "fill": 1,
       "fillGradient": 0,
       "gridPos": {
@@ -1666,7 +1666,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": null,
+      "datasource": "${DS_ZABBIX_SERVER}",
       "fill": 1,
       "fillGradient": 0,
       "gridPos": {
@@ -1807,7 +1807,7 @@
     },
     {
       "collapsed": false,
-      "datasource": null,
+      "datasource": "${DS_ZABBIX_SERVER}",
       "fieldConfig": {
         "defaults": {},
         "overrides": []
@@ -1826,7 +1826,7 @@
     },
     {
       "cacheTimeout": null,
-      "datasource": null,
+      "datasource": "${DS_ZABBIX_SERVER}",
       "fieldConfig": {
         "defaults": {
           "color": {
@@ -1914,7 +1914,7 @@
     },
     {
       "cacheTimeout": null,
-      "datasource": null,
+      "datasource": "${DS_ZABBIX_SERVER}",
       "fieldConfig": {
         "defaults": {
           "color": {
@@ -2008,7 +2008,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": null,
+      "datasource": "${DS_ZABBIX_SERVER}",
       "fill": 1,
       "fillGradient": 0,
       "gridPos": {
@@ -2113,7 +2113,7 @@
     },
     {
       "collapsed": false,
-      "datasource": null,
+      "datasource": "${DS_ZABBIX_SERVER}",
       "fieldConfig": {
         "defaults": {},
         "overrides": []
@@ -2132,7 +2132,7 @@
     },
     {
       "cacheTimeout": null,
-      "datasource": null,
+      "datasource": "${DS_ZABBIX_SERVER}",
       "fieldConfig": {
         "defaults": {
           "color": {
@@ -2240,7 +2240,7 @@
     },
     {
       "cacheTimeout": null,
-      "datasource": null,
+      "datasource": "${DS_ZABBIX_SERVER}",
       "fieldConfig": {
         "defaults": {
           "color": {
@@ -2334,7 +2334,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": null,
+      "datasource": "${DS_ZABBIX_SERVER}",
       "fill": 1,
       "fillGradient": 0,
       "gridPos": {
@@ -2442,7 +2442,7 @@
     },
     {
       "collapsed": false,
-      "datasource": null,
+      "datasource": "${DS_ZABBIX_SERVER}",
       "fieldConfig": {
         "defaults": {},
         "overrides": []
@@ -2468,7 +2468,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": null,
+      "datasource": "${DS_ZABBIX_SERVER}",
       "fill": 4,
       "fillGradient": 0,
       "gridPos": {
@@ -2610,7 +2610,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": null,
+      "datasource": "${DS_ZABBIX_SERVER}",
       "fill": 1,
       "fillGradient": 0,
       "gridPos": {
@@ -2747,7 +2747,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": null,
+      "datasource": "${DS_ZABBIX_SERVER}",
       "fill": 1,
       "fillGradient": 0,
       "gridPos": {
@@ -2868,7 +2868,7 @@
     },
     {
       "collapsed": false,
-      "datasource": null,
+      "datasource": "${DS_ZABBIX_SERVER}",
       "fieldConfig": {
         "defaults": {},
         "overrides": []
@@ -2892,7 +2892,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": null,
+      "datasource": "${DS_ZABBIX_SERVER}",
       "fill": 1,
       "fillGradient": 0,
       "gridPos": {
@@ -3029,7 +3029,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": null,
+      "datasource": "${DS_ZABBIX_SERVER}",
       "fill": 1,
       "fillGradient": 0,
       "gridPos": {
@@ -3166,7 +3166,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": null,
+      "datasource": "${DS_ZABBIX_SERVER}",
       "fill": 1,
       "fillGradient": 0,
       "gridPos": {
@@ -3305,7 +3305,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": null,
+      "datasource": "${DS_ZABBIX_SERVER}",
       "description": "",
       "fill": 1,
       "fillGradient": 0,
@@ -3438,7 +3438,7 @@
     },
     {
       "collapsed": false,
-      "datasource": null,
+      "datasource": "${DS_ZABBIX_SERVER}",
       "fieldConfig": {
         "defaults": {},
         "overrides": []
@@ -3697,7 +3697,7 @@
     },
     {
       "cacheTimeout": null,
-      "datasource": null,
+      "datasource": "${DS_ZABBIX_SERVER}",
       "fieldConfig": {
         "defaults": {
           "color": {
@@ -3808,7 +3808,7 @@
     },
     {
       "cacheTimeout": null,
-      "datasource": null,
+      "datasource": "${DS_ZABBIX_SERVER}",
       "fieldConfig": {
         "defaults": {
           "color": {
@@ -3916,7 +3916,7 @@
     },
     {
       "cacheTimeout": null,
-      "datasource": null,
+      "datasource": "${DS_ZABBIX_SERVER}",
       "fieldConfig": {
         "defaults": {
           "color": {
@@ -4009,7 +4009,7 @@
     },
     {
       "collapsed": true,
-      "datasource": null,
+      "datasource": "${DS_ZABBIX_SERVER}",
       "fieldConfig": {
         "defaults": {},
         "overrides": []
